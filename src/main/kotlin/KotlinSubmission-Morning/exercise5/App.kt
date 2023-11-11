@@ -7,7 +7,7 @@ fun main() {
      * Buat variable dengan nama hero dibawah ini dan isi nilai variable tersebut dengan class Hero
      *
      */
-
+    val hero = Hero()
 
     /**
      * Latihan 2
@@ -16,7 +16,7 @@ fun main() {
      *
      */
 
-
+    hero.setProfile("Adi Nugraha Kartiwa", 22, 175)
 
     /**
      * Latihan 3
@@ -24,7 +24,7 @@ fun main() {
      *
      */
 
-
+    hero.profile()
 
     /**
     Challenge:
@@ -65,6 +65,22 @@ fun main() {
      * Jalankan aktivitas-aktivitas dengan memanggil fungsi-fungsi sesuai challenge diatas
      *
      */
+    hero.jalan()
+    hero.jalan()
+    hero.jalan()
+    hero.jalan()
+    hero.jalan()
+    hero.run()
+    hero.run()
+    hero.run()
+    hero.eat()
+    hero.drink()
+    hero.drink()
+    hero.jump()
+    hero.jump()
+    hero.jump()
+    hero.sit()
+    hero.sit()
 
 
 
@@ -73,7 +89,7 @@ fun main() {
      * Panggil fungsi profile dibawah ini untuk menampilkan status terkini setelah melakukan aktivitas
      *
      */
-
+    hero.profile()
 
 
 }

@@ -49,6 +49,35 @@ class Hero {
       Contoh fungsi bisa mengikuti fungsi jalan() diatas.
 
     */
-    
+
+    fun run() {
+        checkHealth()
+        println("$name sedang lari...")
+        health -= 2
+    }
+
+    fun eat() {
+        checkHealth()
+        println("$name sedang makan...")
+        health += 2
+    }
+
+    fun drink() {
+        checkHealth()
+        println("$name sedang minum...")
+        health += 2
+    }
+
+    fun jump() {
+        checkHealth()
+        println("$name sedang lompat...")
+        health -= 2
+    }
+
+    fun sit() {
+        checkHealth()
+        println("$name sedang duduk...")
+        health += 1
+    }
 }
 
